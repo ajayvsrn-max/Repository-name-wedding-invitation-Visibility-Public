@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bhagyashree & Ajay</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+  margin:0;
+  background:#f8f0df;
+  text-align:center;
+  font-family:Georgia;
+}
+.hero{
+  background:#2d0000;
+  color:white;
+  padding:100px 20px;
+}
+button{
+  background:gold;
+  border:none;
+  padding:15px 30px;
+  border-radius:30px;
+  font-size:20px;
+}
+.section{
+  padding:40px 20px;
+}
+a{
+  display:inline-block;
+  background:#700000;
+  color:white;
+  padding:15px 30px;
+  border-radius:30px;
+  text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <h1>Bhagyashree ❤️ Ajay</h1>
+  <h3>Wedding Invitation</h3>
+  <button onclick="openInvite()">
+    OPEN INVITATION
+  </button>
+</div>
+
+<div id="invite" style="display:none">
+
+<div class="section">
+<h2>Our Journey</h2>
+<p>Together with our families, we invite you to celebrate our wedding.</p>
+</div>
+
+<div class="section">
+<h2>Venue</h2>
+<h3>Lakshmi Raganatha Swamy Kalyana Mantapa</h3>
+<p>Channagiri, Davanagere District</p>
+
+<a href="https://maps.google.com">
+Open Google Maps
+</a>
+</div>
+
+</div>
+
+<script>
+function openInvite(){
+  document.getElementById('invite').style.display='block';
+}
+</script>
+
+</body>
+</html>
